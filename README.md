@@ -1,0 +1,2 @@
+# easyRag
+RAG easy local
