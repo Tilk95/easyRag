@@ -1,0 +1,7 @@
+requests
+urllib3
+pytz
+lmdb
+matplotlib
+mplcursors
+orjson
