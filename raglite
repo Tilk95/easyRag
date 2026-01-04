@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+"""Script simple pour lancer raglite depuis la racine."""
+
+import sys
+from pathlib import Path
+
+# Ajouter le répertoire courant au path
+sys.path.insert(0, str(Path(__file__).parent))
+
+# Importer et lancer le CLI
+from cli import main
+
+if __name__ == "__main__":
+    # Passer les arguments de la ligne de commande (sans le nom du script)
+    sys.exit(main(sys.argv[1:]))
+
